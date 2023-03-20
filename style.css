@@ -1,0 +1,41 @@
+body {
+    display: flex;
+   justify-content: center;
+}
+
+.loginForm {
+    margin-top: 100px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    height: auto;
+
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-image: "https://www.shutterstock.com/image-vector/internet-digital-syber-security-technology-600w-1518108761.jpg";
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginImg {
+    width: 100px;
+    height: auto;
+    align-self: center;
+}
+
+h4, h2 {
+    text-align: center;
+    font-size: medium;
+}
+
+input {
+    font-size: large;
+}
+
+button {
+    background-color: limegreen;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
